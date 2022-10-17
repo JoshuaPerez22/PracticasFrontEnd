@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacolunar</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Tacolunar, desde 2022</h1>
+        </header>
+        
+        <img src="/Imagenes/Tacolunar.jpg" alt="Logo tacolunar">
+    </section>
+    
+    <section>
+        <h2>Men&uacute;</h2>
+        <h3>Tacos grandes</h3>
+        <p>Todos incluyen verdura y cebollitas</p>
+        <ul>
+            <li>Bisteck ......................$25</li>
+            <li>Pastor .......................$25</li>
+            <li>Suadero ......................$25</li>
+            <li>Longaniza ....................$25</li>
+            <li>Campechano ...................$25</li>
+        </ul>
+    
+        <h3>Tacos chicos</h3>
+        <p>Todos incluyen verdura y cebollitas</p>
+        <ul>
+            <li>Bisteck ......................$15</li>
+            <li>Pastor .......................$15</li>
+            <li>Suadero ......................$15</li>
+            <li>Longaniza ....................$15</li>
+            <li>Campechano ...................$15</li>
+        </ul>
+    
+        <h3>Especiales</h3>
+        <p>Combo con refresco por $10 más</p>
+        <dl>
+            <dt>Labrador .....................$35</dt>
+            <dd>- Tortilla de harina con bisteck asado y queso</dd>
+            <dd>Husky ........................$35</dd>
+            <dd>- Tortilla de ma&iacute;z con pollo asado y nopales</dd>
+            <dt>Pastor Alem&aacute;n .........$35</dt>
+            <dd>- Orden de cinco piezas de tacos al pastor con queso</dd>
+            <dt>Callejero ....................$35</dt>
+            <dd>- Totilla de ma&iacute;z con suadero, longaniza y queso</dd>
+        </dl>
+    
+        <h3>Refrescos</h3>
+        <ul>
+            <li>Coca-cola ......................$15</li>
+            <li>Coca Light .....................$15</li>
+            <li>Bing ...........................$15</li>
+            <li>Sidral .........................$15</li>
+            <li>Sangría ........................$15</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Ubicación</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicaci&oacute;n</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/4TtJ9MU3FXa8QDFY7" target="_blank">Centro Histórico de la Ciudad de México</a></td>
+                <td>L - D 24H</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/5widJbUgXit57ZR99" target="_blank">Ahuacatitla 62, Los Reyes, Azcapotzalco</a></td>
+                <td>M - D 4PM - 3AM</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/Su9xagDRaAVfajmh6" target="_blank">Totonacas 139, Ajusco, Coyoacán</a></td>
+                <td>M - D 4PM - 3AM</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Realiza tu pedido</h3>
+        <form action="">
+            <p>¿De que sucursal quieres pedir?</p>
+            <select name="" id="">
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="Sur">Sur</option>
+            </select>
+    
+            <p>¿De cuáles tacos quieres?</p>
+            <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+            <label for="Bisteck">Bisteck</label>
+            <input type="number" id="BisteckNumber" name="BisteckNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+            <label for="Pastor">Pastor</label>
+            <input type="number" id="PastorNumber" name="PastorNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Suadero" name="Suadero" value="Suadero">
+            <label for="Suadero">Suadero</label>
+            <input type="number" id="SuaderoNumber" name="SuaderoNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Longaniza" name="Longaniza" value="Longaniza">
+            <label for="Longaniza">Longaniza</label>
+            <input type="number" id="LonganizaNumber" name="LonganizaNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+            <label for="Campechano">Campechano</label>
+            <input type="number" id="CampechanoNumber" name="CampechanoNumber" placeholder="¿Cuántos?">
+    
+            <br><br>
+    
+            <label for="Nombre">Nombre: </label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+    
+            <br><br>
+    
+            <label for="Telefono">Teléfono: </label><br>
+            <input type="tel" id="Telefono" name="Telefono" maxlength="10" placeholder="¿Cuál es tu teléfono?">
+    
+            <br><br>
+    
+            <label for="Direccion">Dirección: </label><br>
+            <input type="text" id="Direccion" name="Direccion" placeholder="¿Cuál es tu dirección?">
+    
+            <br><br>
+    
+            <button type="submit">Enviar Pedido</button>
+    
+            <br><br>
+        </form>
+        
+    </section>
+
+</body>
+</html>

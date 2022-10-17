@@ -1,0 +1,121 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: pink;
+            text-align: center;
+            color: black;
+            padding: 20px;
+        }
+
+        /*body{
+            background-color: pink;
+        }*/
+
+        /*nav {
+            float: left;
+            width: 100%;
+            height: 400px;
+            /* only for demonstration, should be removed */
+            /*padding: 20px;
+        }
+
+        ul li {
+            float: right;
+            list-style-type: none;
+            text-align: left;
+            padding: 40px;
+        }*/
+
+        @media (max-width: 600px) {
+            
+        }
+    </style>
+ </head>
+ <body>
+    <header> <h1>Bienvenido a mi Pasteleria</h1></header>
+    <section>
+        <nav>
+            <h2>Sabores</h2>
+            <ul>
+                <li>
+                    <label for="saborChocolate">Pastel de Chocolate</label>
+                    <br>
+                    <img src="/Imagenes/Café con Chocolate.jpg" alt="Pastel de café con chocolate" id="PastelChocolate" width="200px" height="133px">
+                </li>
+                <br>
+                <li>
+                    <label for="saborFresa">Pastel de Fresa</label>
+                    <br>
+                    <img src="/Imagenes/Fresa.jpg" alt="Pastel de fresa" id="Fresa" width="200px" height="133px">
+                </li>
+                <br>
+                <li>
+                    <label for="saborPayDeLimon">Pay de Lim&oacute;n</label>
+                    <br>
+                    <img src="/Imagenes/Pay de limón.jpg" alt="Pay de limón" id="saborPayDeLimon" width="200px" height="133px">
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <nav>
+            <h2>Adornos</h2>
+            <ul>
+                <li>
+                    <label for="adorno1">Adorno 1</label>
+                    <br>
+                    <img src="/Imagenes/Café con Chocolate.jpg" alt="Adorno 1" id="adorno1" width="200px" height="133px">
+                </li>
+                <br>
+                <li>
+                    <label for="adorno2">Adorno 2</label>
+                    <br>
+                    <img src="/Imagenes/Fresa.jpg" alt="Adorno 2" id="adorno2" width="200px" height="133px">
+                </li>
+                <br>
+                <li>
+                    <label for="adorno3">Adorno 3</label>
+                    <br>
+                    <img src="/Imagenes/Pay de limón.jpg" alt="Adorno 3" id="adorno3" width="200px" height="133px">
+                </li>
+            </ul>
+        </nav>
+    </section>
+    
+    <hr>
+    
+    <!--Formulario para pedidos-->
+    <form action="" id="formularioPedidos">
+        <h2>Realiza tu pedido</h2>
+        <br><br>
+        <h3>Datos personales</h3>
+        
+        <label for="nombre"> Nombre </label>
+        <br>
+        <input type="text" id="nombre" name="nombre">
+
+        <br><br>
+
+        <label for="primerApellido"> Primer Apellido </label>
+        <br>
+        <input type="text" id="primerApellido" name="primer Apellido">
+
+        <br><br>
+
+        <label for="segundoApellido"> Segundo Apellido </label>
+        <br>
+        <input type="text" id="segundoApellido" name="segundo Apellido">
+
+    </form>
+ </body>
+ </html>
